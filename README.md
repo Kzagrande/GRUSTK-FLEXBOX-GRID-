@@ -1,103 +1,31 @@
-# Guia de estilos
+# GRU_SKT 🤘
 
-Toda a estilização que será usada no projeto dentro do figma.
+Esse é um projeto de estudo que visa o aperfeiçoamento nas ferramentas de flexbox e Grid do Css. Além disso também tem como obejetivo
+o a introdução a conteúdos responsivos e o conceito de Mobile First.
+
+Vou adicionando as imagens do projeto em andamento e colocando legendas do que foi feito até o momento.
+
+
 
 [Link do projeto no figma](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358)
 
-## Fonte
 
-```html
-Open Sans:
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
-```
 
-## Cores
 
-corpo: `#1D232A`
+# Mobile Em Desenvolvimento
 
-cabeçalho: `#1D232A`
+![SKT_GRU__beta](https://user-images.githubusercontent.com/91704291/147165272-db8f000b-b922-4db2-8073-76d0a26421bb.png)
 
-cabeçalho mobile: `#15191C`
 
-menu lateral: `#15191C`
+# Menu Lateral do mobile
 
-cartão: `#2C343A`
 
-fonte: `#FFFFFF`
+![SKT-GRU__menu--beta](https://user-images.githubusercontent.com/91704291/147165312-fb51ef19-44cb-4ad3-b2ce-b0bafd5f2f91.png)
 
-fonte alternativa: `#95999C`
 
-links: `#0480DC`
+# Desenhando como ficaria o Grid no Paint
 
-botão: `#0480DC`
+![grid__paint](https://user-images.githubusercontent.com/91704291/147165347-4cdc89e1-5904-4807-9820-7833dcefa771.png)
 
-sombras: `0px 4px 4px rgba(0, 0, 0, 0.16)`
 
-## Ícones
 
-Estão dentro do arquivo de fonte `icones.ttf`. Para usar, primeiro importe a fonte no projeto usando `@font-face` e depois utilize os códigos abaixo para exibir o ícone.
-
-```css
-@font-face {
-    font-family: 'icones';
-    src: url(../font/icones.ttf);
-}
-```
-
-> Cuidado com a localização do arquivo `icones.ttf`
-
-Camisas = `\e900`
-
-Carrinho = `\e901`
-
-Inicio = `\e902`
-
-Integrantes = `\e903`
-
-Menu = `\e904`
-
-Moeda = `\e905`
-
-Notificação = `\e906`
-
-Pico = `\e908`
-
-Picos = `\e909`
-
-Pinturas = `\e90a`
-
-Play = `\e90b`
-
-Relogio = `\e90c`
-
-Seta-baixo = `\e90d`
-
-Videos = `\e90e`
-
-Visualizacao = `\e90f`
-
-## Espaçamentos
-
-Espaço interno botão: `8px`
-
-Espaço entre elementos do botão: `8px`
-
-Espaço entre elementos: `16px/8px`
-
-Espaçamento interno do corpo: `16px`
-
-Espaçamento entre o título do cartão de recentes e seus itens: `24px`
-
-## Tamanhos
-
-Tamanho do dispositivo mobile: `360px`
-
-Tamanho do dispositivo desktop: `1440px`
-
-Largura máxima do conteúdo principal: `1120px`
-
-Largura máxima de um cartão desktop: `256px`
-
-Altura mínima de um cartão: `320px`

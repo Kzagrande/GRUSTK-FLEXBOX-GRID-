@@ -9,6 +9,13 @@ body {
     color: #fff
 }
 
+@media screen and (min-width: 1440px) {
+    body {
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
+}
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -22,6 +29,10 @@ body {
     width: 40px;
 }
 
+.cabecalho__perfil {
+    display: none;
+}
+
 .cabecalho__menu i::before {
     content: "\e904";
     font-size: 24px;
@@ -31,6 +42,23 @@ body {
 .cabecalho__notificacao i::before {
     content: "\e906";
     font-size: 24px
+}
+
+@media screen and (min-width:1440px) {
+    .cabecalho {
+        background-color: #1d232a;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        padding: 16px 60px;
+        box-sizing: border-box;
+    }
+    .cabecalho__menu {
+        display: none;
+    }
+    .cabecalho__logo {
+        display: none;
+    }
+    .cabecalho__perfil {}
 }
 
 .menu-lateral {
@@ -109,10 +137,17 @@ body {
 
 .principal {
     padding: 24px 16px;
+    display: grid;
+    gap: 16px;
 }
 
 .titulo-pagina {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.titulo-sessao {
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
@@ -123,10 +158,15 @@ body {
     background-color: #2C343A;
 }
 
+.cartao--destaque {
+    margin-bottom: 16px;
+}
+
 .conteudoCartaoDestaque {
     padding: 16px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr;
+    gap: 16px;
 }
 
 .cartao__destaque {
@@ -137,6 +177,10 @@ body {
     font-size: 1.2rem;
     font-weight: 700;
     grid-column: span 2;
+}
+
+.cartao__titulo--simples {
+    margin-bottom: 5px;
 }
 
 .cartao__perfil {
@@ -161,15 +205,22 @@ body {
     margin-right: 8px;
 }
 
+.cartao__info--compra::before {
+    content: "\e905";
+    margin-right: 10px;
+    font-size: 20px;
+}
+
 .cartao__botao {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     background-color: #0480DC;
     width: 40px;
     height: 40px;
     font-size: 0.9rem;
     border-radius: 10px;
+    justify-self: flex-end;
 }
 
 .cartao__botao--play::before {
@@ -182,6 +233,20 @@ body {
     grid-column: span 2;
 }
 
+.cartao__botao--compra {
+    font-size: 1.3rem;
+    width: 50px;
+}
+
 .cartao__botao--destaque::before {
     margin-right: 8px;
+}
+
+.cartao__botao--compra::before {
+    content: "\e901";
+}
+
+.sessao {
+    display: grid;
+    gap: 16px;
 }
