@@ -28,4 +28,13 @@ Vou adicionando as imagens do projeto em andamento e colocando legendas do que f
 ![grid__paint](https://user-images.githubusercontent.com/91704291/147165347-4cdc89e1-5904-4807-9820-7833dcefa771.png)
 
 
+# Grid do main para desktop
+
+![grid_main](https://user-images.githubusercontent.com/91704291/147511552-86c92994-823d-4690-8b1a-ce958ee87f06.png)
+
+
+# Grid dos produtos para Destop
+
+![grid__produtos](https://user-images.githubusercontent.com/91704291/147511583-84bd69df-5bb0-42d3-9df4-775b2fd0749f.png)
+
 
