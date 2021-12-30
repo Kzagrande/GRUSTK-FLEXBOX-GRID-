@@ -37,12 +37,15 @@ body {
     content: "\e904";
     font-size: 24px;
     cursor: pointer;
+    
 }
 
 .cabecalho__notificacao i::before {
     content: "\e906";
-    font-size: 30px
+    font-size: 30px;
+    
 }
+
 
 @media screen and (min-width:1440px) {
     .cabecalho {
@@ -70,6 +73,7 @@ body {
         color: #95999C;
         border-right: 1px solid;
         padding: 8px 32px;
+        cursor: pointer;
     }
     .cabecalho__perfil::before {
         content: "";
@@ -81,11 +85,17 @@ body {
         background-size: contain;
         background-position: center;
         border-radius: 15px;
+       
     }
     .cabecalho__perfil::after {
         content: "\e90d";
         color: #ffff;
         font-size: 1.5rem;
+    }
+
+    .cabecalho__notificacao i::before {
+        cursor: pointer;
+        
     }
 }
 
@@ -117,6 +127,7 @@ body {
     padding-left: 64px;
     display: flex;
     align-items: center;
+    
 }
 
 .menu-lateral__link:hover {
@@ -175,7 +186,9 @@ body {
 .principal {
     padding: 24px 16px;
     display: grid;
-    gap: 16px;
+    column-gap: 16px;
+    row-gap: 20px;
+
 }
 
 .titulo-pagina {
@@ -221,7 +234,7 @@ body {
     padding: 16px;
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 8px;
+    gap: 15px;
 }
 
 .cartao__destaque {
@@ -329,14 +342,14 @@ body {
 
 .cartao__lista {
     display: grid;
-    row-gap: 16px;
+    row-gap: 20px;
     grid-column: span 2;
 }
 
 .cartao__item {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 8px;
+    gap: 10px;
 }
 
 .cartao__item-thumbnail {
@@ -386,6 +399,7 @@ body {
     }
     .destaque-produtos {
         grid-area: destaque-produtos;
+        
     }
     .produtos-recentes {
         grid-area: produtos-recentes;
